@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54A60C191FD65FDA000CD643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A60C181FD65FDA000CD643 /* AppDelegate.m */; };
+		54A60C211FD65FDA000CD643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A60C201FD65FDA000CD643 /* Assets.xcassets */; };
+		54A60C271FD65FDA000CD643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A60C261FD65FDA000CD643 /* main.m */; };
+		54A60C311FD65FDB000CD643 /* cling___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A60C301FD65FDB000CD643 /* cling___Tests.m */; };
+		54A60C3C1FD65FDB000CD643 /* cling___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A60C3B1FD65FDB000CD643 /* cling___UITests.m */; };
+		54A60C681FD66127000CD643 /* LY_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A60C671FD66127000CD643 /* LY_BaseViewController.m */; };
+		54A60C6B1FD66133000CD643 /* LY_BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A60C6A1FD66133000CD643 /* LY_BaseView.m */; };
+		54A60C6E1FD66157000CD643 /* LY_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A60C6D1FD66157000CD643 /* LY_HomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54A60C2D1FD65FDB000CD643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A60C0C1FD65FDA000CD643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A60C131FD65FDA000CD643;
+			remoteInfo = "cling_仿写";
+		};
+		54A60C381FD65FDB000CD643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A60C0C1FD65FDA000CD643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A60C131FD65FDA000CD643;
+			remoteInfo = "cling_仿写";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54A60C141FD65FDA000CD643 /* cling_仿写.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cling_仿写.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A60C171FD65FDA000CD643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54A60C181FD65FDA000CD643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54A60C201FD65FDA000CD643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54A60C251FD65FDA000CD643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A60C261FD65FDA000CD643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54A60C2C1FD65FDB000CD643 /* cling_仿写Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cling_仿写Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A60C301FD65FDB000CD643 /* cling___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "cling___Tests.m"; sourceTree = "<group>"; };
+		54A60C321FD65FDB000CD643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A60C371FD65FDB000CD643 /* cling_仿写UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cling_仿写UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A60C3B1FD65FDB000CD643 /* cling___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "cling___UITests.m"; sourceTree = "<group>"; };
+		54A60C3D1FD65FDB000CD643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A60C661FD66127000CD643 /* LY_BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LY_BaseViewController.h; sourceTree = "<group>"; };
+		54A60C671FD66127000CD643 /* LY_BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LY_BaseViewController.m; sourceTree = "<group>"; };
+		54A60C691FD66133000CD643 /* LY_BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LY_BaseView.h; sourceTree = "<group>"; };
+		54A60C6A1FD66133000CD643 /* LY_BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LY_BaseView.m; sourceTree = "<group>"; };
+		54A60C6C1FD66157000CD643 /* LY_HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LY_HomeViewController.h; sourceTree = "<group>"; };
+		54A60C6D1FD66157000CD643 /* LY_HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LY_HomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54A60C111FD65FDA000CD643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A60C291FD65FDB000CD643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A60C341FD65FDB000CD643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54A60C0B1FD65FDA000CD643 = {
+			isa = PBXGroup;
+			children = (
+				54A60C161FD65FDA000CD643 /* cling_仿写 */,
+				54A60C2F1FD65FDB000CD643 /* cling_仿写Tests */,
+				54A60C3A1FD65FDB000CD643 /* cling_仿写UITests */,
+				54A60C151FD65FDA000CD643 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54A60C151FD65FDA000CD643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C141FD65FDA000CD643 /* cling_仿写.app */,
+				54A60C2C1FD65FDB000CD643 /* cling_仿写Tests.xctest */,
+				54A60C371FD65FDB000CD643 /* cling_仿写UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54A60C161FD65FDA000CD643 /* cling_仿写 */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C491FD660D5000CD643 /* Classes */,
+				54A60C171FD65FDA000CD643 /* AppDelegate.h */,
+				54A60C181FD65FDA000CD643 /* AppDelegate.m */,
+				54A60C201FD65FDA000CD643 /* Assets.xcassets */,
+				54A60C251FD65FDA000CD643 /* Info.plist */,
+				54A60C261FD65FDA000CD643 /* main.m */,
+			);
+			path = "cling_仿写";
+			sourceTree = "<group>";
+		};
+		54A60C2F1FD65FDB000CD643 /* cling_仿写Tests */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C301FD65FDB000CD643 /* cling___Tests.m */,
+				54A60C321FD65FDB000CD643 /* Info.plist */,
+			);
+			path = "cling_仿写Tests";
+			sourceTree = "<group>";
+		};
+		54A60C3A1FD65FDB000CD643 /* cling_仿写UITests */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C3B1FD65FDB000CD643 /* cling___UITests.m */,
+				54A60C3D1FD65FDB000CD643 /* Info.plist */,
+			);
+			path = "cling_仿写UITests";
+			sourceTree = "<group>";
+		};
+		54A60C491FD660D5000CD643 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C4A1FD660D5000CD643 /* Base */,
+				54A60C5A1FD660D5000CD643 /* Menu */,
+				54A60C561FD660D5000CD643 /* Home */,
+				54A60C521FD660D5000CD643 /* Discover */,
+				54A60C5E1FD660D5000CD643 /* My */,
+				54A60C621FD660D5000CD643 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		54A60C4A1FD660D5000CD643 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C4B1FD660D5000CD643 /* Model */,
+				54A60C4C1FD660D5000CD643 /* View */,
+				54A60C4D1FD660D5000CD643 /* ViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		54A60C4B1FD660D5000CD643 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54A60C4C1FD660D5000CD643 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C691FD66133000CD643 /* LY_BaseView.h */,
+				54A60C6A1FD66133000CD643 /* LY_BaseView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54A60C4D1FD660D5000CD643 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C661FD66127000CD643 /* LY_BaseViewController.h */,
+				54A60C671FD66127000CD643 /* LY_BaseViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		54A60C521FD660D5000CD643 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C531FD660D5000CD643 /* Model */,
+				54A60C541FD660D5000CD643 /* View */,
+				54A60C551FD660D5000CD643 /* ViewController */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		54A60C531FD660D5000CD643 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54A60C541FD660D5000CD643 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54A60C551FD660D5000CD643 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		54A60C561FD660D5000CD643 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C571FD660D5000CD643 /* Model */,
+				54A60C581FD660D5000CD643 /* View */,
+				54A60C591FD660D5000CD643 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		54A60C571FD660D5000CD643 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54A60C581FD660D5000CD643 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54A60C591FD660D5000CD643 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C6C1FD66157000CD643 /* LY_HomeViewController.h */,
+				54A60C6D1FD66157000CD643 /* LY_HomeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		54A60C5A1FD660D5000CD643 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C5B1FD660D5000CD643 /* Model */,
+				54A60C5C1FD660D5000CD643 /* View */,
+				54A60C5D1FD660D5000CD643 /* ViewController */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		54A60C5B1FD660D5000CD643 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54A60C5C1FD660D5000CD643 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54A60C5D1FD660D5000CD643 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		54A60C5E1FD660D5000CD643 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C5F1FD660D5000CD643 /* Model */,
+				54A60C601FD660D5000CD643 /* View */,
+				54A60C611FD660D5000CD643 /* ViewController */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		54A60C5F1FD660D5000CD643 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54A60C601FD660D5000CD643 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54A60C611FD660D5000CD643 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		54A60C621FD660D5000CD643 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				54A60C631FD660D5000CD643 /* Addition */,
+				54A60C641FD660D5000CD643 /* Category */,
+				54A60C651FD660D5000CD643 /* Utils */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		54A60C631FD660D5000CD643 /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Addition;
+			sourceTree = "<group>";
+		};
+		54A60C641FD660D5000CD643 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		54A60C651FD660D5000CD643 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54A60C131FD65FDA000CD643 /* cling_仿写 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A60C401FD65FDB000CD643 /* Build configuration list for PBXNativeTarget "cling_仿写" */;
+			buildPhases = (
+				54A60C101FD65FDA000CD643 /* Sources */,
+				54A60C111FD65FDA000CD643 /* Frameworks */,
+				54A60C121FD65FDA000CD643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cling_仿写";
+			productName = "cling_仿写";
+			productReference = 54A60C141FD65FDA000CD643 /* cling_仿写.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54A60C2B1FD65FDB000CD643 /* cling_仿写Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A60C431FD65FDB000CD643 /* Build configuration list for PBXNativeTarget "cling_仿写Tests" */;
+			buildPhases = (
+				54A60C281FD65FDB000CD643 /* Sources */,
+				54A60C291FD65FDB000CD643 /* Frameworks */,
+				54A60C2A1FD65FDB000CD643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A60C2E1FD65FDB000CD643 /* PBXTargetDependency */,
+			);
+			name = "cling_仿写Tests";
+			productName = "cling_仿写Tests";
+			productReference = 54A60C2C1FD65FDB000CD643 /* cling_仿写Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54A60C361FD65FDB000CD643 /* cling_仿写UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A60C461FD65FDB000CD643 /* Build configuration list for PBXNativeTarget "cling_仿写UITests" */;
+			buildPhases = (
+				54A60C331FD65FDB000CD643 /* Sources */,
+				54A60C341FD65FDB000CD643 /* Frameworks */,
+				54A60C351FD65FDB000CD643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A60C391FD65FDB000CD643 /* PBXTargetDependency */,
+			);
+			name = "cling_仿写UITests";
+			productName = "cling_仿写UITests";
+			productReference = 54A60C371FD65FDB000CD643 /* cling_仿写UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54A60C0C1FD65FDA000CD643 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LY_;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LiuYuan;
+				TargetAttributes = {
+					54A60C131FD65FDA000CD643 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					54A60C2B1FD65FDB000CD643 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54A60C131FD65FDA000CD643;
+					};
+					54A60C361FD65FDB000CD643 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54A60C131FD65FDA000CD643;
+					};
+				};
+			};
+			buildConfigurationList = 54A60C0F1FD65FDA000CD643 /* Build configuration list for PBXProject "cling_仿写" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54A60C0B1FD65FDA000CD643;
+			productRefGroup = 54A60C151FD65FDA000CD643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54A60C131FD65FDA000CD643 /* cling_仿写 */,
+				54A60C2B1FD65FDB000CD643 /* cling_仿写Tests */,
+				54A60C361FD65FDB000CD643 /* cling_仿写UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54A60C121FD65FDA000CD643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A60C211FD65FDA000CD643 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A60C2A1FD65FDB000CD643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A60C351FD65FDB000CD643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54A60C101FD65FDA000CD643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A60C271FD65FDA000CD643 /* main.m in Sources */,
+				54A60C191FD65FDA000CD643 /* AppDelegate.m in Sources */,
+				54A60C6E1FD66157000CD643 /* LY_HomeViewController.m in Sources */,
+				54A60C6B1FD66133000CD643 /* LY_BaseView.m in Sources */,
+				54A60C681FD66127000CD643 /* LY_BaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A60C281FD65FDB000CD643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A60C311FD65FDB000CD643 /* cling___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A60C331FD65FDB000CD643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A60C3C1FD65FDB000CD643 /* cling___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54A60C2E1FD65FDB000CD643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A60C131FD65FDA000CD643 /* cling_仿写 */;
+			targetProxy = 54A60C2D1FD65FDB000CD643 /* PBXContainerItemProxy */;
+		};
+		54A60C391FD65FDB000CD643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A60C131FD65FDA000CD643 /* cling_仿写 */;
+			targetProxy = 54A60C381FD65FDB000CD643 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54A60C3E1FD65FDB000CD643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54A60C3F1FD65FDB000CD643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54A60C411FD65FDB000CD643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cling_仿写/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.cling---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54A60C421FD65FDB000CD643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cling_仿写/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.cling---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54A60C441FD65FDB000CD643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cling_仿写Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.cling---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cling_仿写.app/cling_仿写";
+			};
+			name = Debug;
+		};
+		54A60C451FD65FDB000CD643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cling_仿写Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.cling---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cling_仿写.app/cling_仿写";
+			};
+			name = Release;
+		};
+		54A60C471FD65FDB000CD643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cling_仿写UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.cling---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cling_仿写";
+			};
+			name = Debug;
+		};
+		54A60C481FD65FDB000CD643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cling_仿写UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.cling---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cling_仿写";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54A60C0F1FD65FDA000CD643 /* Build configuration list for PBXProject "cling_仿写" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A60C3E1FD65FDB000CD643 /* Debug */,
+				54A60C3F1FD65FDB000CD643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A60C401FD65FDB000CD643 /* Build configuration list for PBXNativeTarget "cling_仿写" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A60C411FD65FDB000CD643 /* Debug */,
+				54A60C421FD65FDB000CD643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A60C431FD65FDB000CD643 /* Build configuration list for PBXNativeTarget "cling_仿写Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A60C441FD65FDB000CD643 /* Debug */,
+				54A60C451FD65FDB000CD643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A60C461FD65FDB000CD643 /* Build configuration list for PBXNativeTarget "cling_仿写UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A60C471FD65FDB000CD643 /* Debug */,
+				54A60C481FD65FDB000CD643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54A60C0C1FD65FDA000CD643 /* Project object */;
+}
